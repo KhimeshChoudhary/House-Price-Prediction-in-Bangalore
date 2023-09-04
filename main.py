@@ -14,6 +14,8 @@ def index():
     locations=sorted(data['location'].unique())
 
     return render_template('index1.html',locations=locations)
+     
+
 
 @app.route('/predict',methods=['POST'])
 def predict():
