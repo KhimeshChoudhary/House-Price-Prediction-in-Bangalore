@@ -3,7 +3,7 @@
 
 Here we created the website base project where customer can predict the price of house on the base of location, bhk, bath room and square feet. The Prediction page is on the server side this is hosted by using pythonanywhere.com.
 
-## My Website Link: 
+## My Website Link:  https://khimeshchoudhary.github.io/House-Price-Prediction-in-Bangalore/
 
 ## Home Page
 
