@@ -3,7 +3,6 @@ from flask import Flask, render_template, request
 import pandas as pd
 import numpy  as np
 
-
 app=Flask(__name__)
 data=pd.read_csv('cleaned_data.csv')
 pipe=pickle.load(open("RidgeModel.pk1","rb"))
@@ -30,4 +29,4 @@ def predict():
     return str(np.round(predict,2))
 
 if __name__=="__main__":
-    app.run(debug=False,host='0.0.0.0',port=5001)
+    app.run()
